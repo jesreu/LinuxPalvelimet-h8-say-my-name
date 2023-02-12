@@ -20,7 +20,7 @@ Nyt valitsemalla vaihtoehdon manage voidaan asettaa palvelimen ip hankimallemme 
 ![Onnistunut muutetut nimitiedot](https://user-images.githubusercontent.com/112503770/218344084-95571605-3122-45b2-97f9-f5d8525548b0.jpg)
 
 
-Nyt kokeillaan klo 1.18, ei ole vielä vaihtanut sivua oikein, koska nimi vastaa github error sivua. Luulen, että github edu paketti ohjattuna githubin sivuihin rekordien mukaan, jotka jouduin poistamaan Namecheapin sivulta. Paras arvaus tällä hetkellä, että nimen siirtymisessä menee hetki, joten odotellaan. Vielä tuplatarkistin namecheapin tuki artikkelista, joka antaa noin 30 minuuttia arvion. Korjasin vielä kirjoitetut name recordit artikkelin mukaan (kaksi eriävää www rekordia)
+Nyt kokeillaan klo 1.18, ei ole vielä vaihtanut sivua oikein, koska nimi vastaa github error sivua. Luulen, että github edu paketti ohjattuna githubin sivuihin rekordien mukaan, jotka jouduin poistamaan Namecheapin sivulta. Paras arvaus tällä hetkellä, että nimen siirtymisessä menee hetki, joten odotellaan. Vielä tuplatarkistin namecheapin tuki artikkelista, joka antaa noin 30 minuuttia arvion. Korjasin vielä kirjoitetut rekordit artikkelin mukaan (kaksi eriävää www rekordia)
 
 Kuvassa väärä sivu.
 ![Errori](https://user-images.githubusercontent.com/112503770/218344088-85d6610b-1a59-4dcb-93af-b1b8a989fa0c.jpg)
