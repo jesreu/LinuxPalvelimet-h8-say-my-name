@@ -46,7 +46,7 @@ Pienellä selvittämisellä näyttäisi, että dig komento tarvitsee paketin jot
 
     sudo apt-get install dnsutils
     
-Ajetaan komenton `dig jessereunamo.me`
+Ajetaan komento `dig jessereunamo.me`
 
 ![dig_tulokset](https://user-images.githubusercontent.com/112503770/218346596-256fa12e-d642-463e-8204-2a501492eee9.png)
 
