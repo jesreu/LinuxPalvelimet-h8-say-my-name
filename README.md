@@ -20,7 +20,7 @@ Nyt valitsemalla vaihtoehdon manage voidaan asettaa palvelimen ip hankimallemme 
 ![Onnistunut muutetut nimitiedot](https://user-images.githubusercontent.com/112503770/218344084-95571605-3122-45b2-97f9-f5d8525548b0.jpg)
 
 
-Nyt kokeillaan klo 1.18, ei ole vielä vaihtanut sivua oikein, koska nimi vastaa github error sivua. Luulen, että github edu paketti ohjattuna githubin sivuihin rekordien mukaan, jotka jouduin poistamaan Namecheapin sivulta. Paras arvaus tällä hetkellä, että nimen siirtymisessä menee hetki, joten odotellaan. Vielä tuplatarkistin namecheapin tuki artikkelista, joka antaa noin 30 minuuttia arvion. Korjasin vielä kirjoitetut rekordit artikkelin mukaan (kaksi eriävää www rekordia)
+Nyt kokeillaan avata sivu klo 1.18. Ei ole vielä vaihtanut sivua oikein, koska hankittu nimi vastaa github pages error sivua. Luulen, että github edu paketti on ohjattuna githubin sivuihin rekordien mukaan, jotka jouduin poistamaan Namecheapin sivulta. Paras arvaus tällä hetkellä, että nimen siirtymisessä menee hetki, joten odotellaan. Vielä tuplatarkistin namecheapin tuki artikkelista, joka antaa noin 30 minuuttia arvion. Korjasin vielä kirjoitetut rekordit artikkelin mukaan (kaksi eriävää www rekordia)
 
 Kuvassa väärä sivu.
 ![Errori](https://user-images.githubusercontent.com/112503770/218344088-85d6610b-1a59-4dcb-93af-b1b8a989fa0c.jpg)
@@ -31,10 +31,31 @@ Klo 1.42: Aika tekee tehtävänsä! Sivu toimii!
 
 
 ## b)
+Tutkitaan hankittua domainia käytämällä host ja dig komentoja. Aloitan ajamalla:
 
+    man host
+    man dig
+    
+Ottaakseni selvää lisää komennoista. Komennoista host komennolla on kattavat man sivut, dig komennolla sivu ei aukea. Kokeillaa joka tapauksessa `host jessereunamo.me`
+
+kuve
+
+Ensimmäinen tulostettu rivi on selkeä, joka kertoo nimeen yhdistetyn ip osoitteen. Seuraavat rivit näyttäisivät vastaavan erilaisia email edelleenlähetys servereitä. Namecheap tarjoaa palvelun ilmaiseksi, joten olettaisin, että niistä on kysymys.
+
+Pienellä selvittämisellä näyttäisi, että dig komento tarvitsee paketin joten:
+
+    sudo apt-get install dnsutils
+    
+Ajetaan komenton `dig jessereunamo.me`
+
+kuve
+
+Tulkitaan tulostetta erittäin helposti lähteissä olevan ohjeiden avulla. Voidaan käydä komennon tuloste osioittain läpi. Ensimmäisenä ylhäällä on ohjelman versionumero, käyttöjärjestelmä ja komennon syöte. Got answer osiossa kerrotaan mitä palvelin vastasi komentoon. Opt osiossa on tiedot: edns dns järjestelmän laajennus, Flags eli käytetyt liput ja upd(user dependecy protocol) paketin koko. Question osiossa on kysytty sivu, in=internet ja a=address. Vastauksessa samat tiedot mutta lisättynä time to live ajanjakso, jolla rekordi päivittyy ja sivun IP osoite. Lopussa on statistiikkaa hausta: Hakuaika millisekunteina, dns serverin ip ja portti, aika jolloin komento ajettiin ja palautetun datan koko.
 ## Lähteet
 
     https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
     https://www.namecheap.com/support/knowledgebase/article.aspx/319/2237/how-can-i-set-up-an-a-address-record-for-my-domain/
+    https://www.namecheap.com/support/knowledgebase/article.aspx/308/2214/how-to-set-up-free-email-forwarding/
+    https://phoenixnap.com/kb/linux-dig-command-examples
     
     
