@@ -4,13 +4,13 @@
     Linkki:       https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
 
 ## a)
-Vuokrataan nimi h7-harjoituksessa luodulle palvelimelle käyttäen Namecheap nimipalvelua. Valitsin Namecheap palvelun, koska Github educations paketin kautta sain  Aloitetaan prosessi rekisteröitymällä Namecheap palveluun. Rekisteröitymiseen ei tarvita valtavia tietoja, mutta nimen hankintaan tarvitaan enemmän tietoja. 
+Vuokrataan nimi h7-harjoituksessa luodulle palvelimelle käyttäen Namecheap nimipalvelua. Valitsin Namecheap palvelun, koska Github educations paketin kautta sain ilmaiseksi nimen käyttöön. Aloitetaan prosessi rekisteröitymällä Namecheap palveluun. Rekisteröitymiseen ei tarvita valtavia tietoja, mutta nimen hankintaan tarvitaan enemmän tietoja. 
 
 Valitettavasti Github educations paketti tarjoaa ilmaiseksi vain .me top level domain osoitteen, joten sillä joudutaan menemään. Huomiona myös että nimen rekisteröinti menee erillisen nc.me sivun kautta.
 
 ![kusetusloppu](https://user-images.githubusercontent.com/112503770/218344052-5ab0ce79-075b-4ca2-a7e4-13ac0c3733e6.jpg)
 
-Ilmeisesti kyseessä namecheapin education järjestelmä. Tilasin jessereunamo.me nimen itselleni ja kas kuin ollakkaan domain ilmestyi namecheap:in normaalin sivuston alaisuuteen. 
+Ilmeisesti kyseessä namecheapin education järjestelmä. Hankin jessereunamo.me nimen itselleni ja kas kuin ollakkaan domain ilmestyi namecheap:in normaalin sivuston alaisuuteen. 
 
 ![Domaini onnistui](https://user-images.githubusercontent.com/112503770/218344068-ebe97cf8-6410-4c86-8657-6a2db02559aa.jpg)
 
