@@ -38,7 +38,7 @@ Tutkitaan hankittua domainia käytämällä host ja dig komentoja. Aloitan ajama
     
 Ottaakseni selvää lisää komennoista. Komennoista host komennolla on kattavat man sivut, dig komennolla sivu ei aukea. Kokeillaa joka tapauksessa `host jessereunamo.me`
 
-kuve
+![host_tulokset](https://user-images.githubusercontent.com/112503770/218346587-69dd179f-5bf5-42d4-8e14-ba16056b3219.png)
 
 Ensimmäinen tulostettu rivi on selkeä, joka kertoo nimeen yhdistetyn ip osoitteen. Seuraavat rivit näyttäisivät vastaavan erilaisia email edelleenlähetys servereitä. Namecheap tarjoaa palvelun ilmaiseksi, joten olettaisin, että niistä on kysymys.
 
@@ -48,7 +48,7 @@ Pienellä selvittämisellä näyttäisi, että dig komento tarvitsee paketin jot
     
 Ajetaan komenton `dig jessereunamo.me`
 
-kuve
+![dig_tulokset](https://user-images.githubusercontent.com/112503770/218346596-256fa12e-d642-463e-8204-2a501492eee9.png)
 
 Tulkitaan tulostetta erittäin helposti lähteissä olevan ohjeiden avulla. Voidaan käydä komennon tuloste osioittain läpi. Ensimmäisenä ylhäällä on ohjelman versionumero, käyttöjärjestelmä ja komennon syöte. Got answer osiossa kerrotaan mitä palvelin vastasi komentoon. Opt osiossa on tiedot: edns dns järjestelmän laajennus, Flags eli käytetyt liput ja upd(user dependecy protocol) paketin koko. Question osiossa on kysytty sivu, in=internet ja a=address. Vastauksessa samat tiedot mutta lisättynä time to live ajanjakso, jolla rekordi päivittyy ja sivun IP osoite. Lopussa on statistiikkaa hausta: Hakuaika millisekunteina, dns serverin ip ja portti, aika jolloin komento ajettiin ja palautetun datan koko.
 ## Lähteet
